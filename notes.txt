@@ -1,0 +1,9 @@
+Meu nome é Wesley! DESAFIO CONCLUÍDO COM SUCESSO!!
+
+-------criar boco de notas e inserir informações dentro do mesmo-------
+
+const fs = require('fs')
+
+//fs.writeFileSync('notes.txt', 'Meu nome é Wesley!')
+
+fs.appendFileSync('notes.txt', ' DESAFIO CONCLUÍDO COM SUCESSO!!', 'utf8')
